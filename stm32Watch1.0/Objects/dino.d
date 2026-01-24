@@ -1,0 +1,15 @@
+.\objects\dino.o: Game\Dino.c
+.\objects\dino.o: Game\Dino.h
+.\objects\dino.o: .\Hardware\OLED.h
+.\objects\dino.o: .\Start\stm32f10x.h
+.\objects\dino.o: .\Start\core_cm3.h
+.\objects\dino.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dino.o: .\Start\system_stm32f10x.h
+.\objects\dino.o: .\Hardware\OLED_Data.h
+.\objects\dino.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\dino.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\dino.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\dino.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\dino.o: .\Hardware\key.h
+.\objects\dino.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\dino.o: .\system\Delay.h

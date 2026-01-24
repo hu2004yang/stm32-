@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\objects\core_cm3.o"
+".\objects\startup_stm32f10x_hd.o"
+".\objects\system_stm32f10x.o"
+".\objects\main.o"
+".\objects\delay.o"
+".\objects\timer.o"
+".\objects\myrtc.o"
+".\objects\key.o"
+".\objects\led.o"
+".\objects\oled.o"
+".\objects\oled_data.o"
+".\objects\adc.o"
+".\objects\i2c.o"
+".\objects\menu.o"
+".\objects\settime.o"
+".\objects\stopwatch.o"
+".\objects\flashlight.o"
+".\objects\game.o"
+".\objects\mpu6050.o"
+".\objects\gradienter.o"
+".\objects\dino.o"
+--strict --scatter ".\Objects\01_led_register.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\01_led_register.map" -o .\Objects\01_led_register.axf

@@ -1,0 +1,17 @@
+.\objects\gradienter.o: App\Gradienter.c
+.\objects\gradienter.o: App\Gradienter.h
+.\objects\gradienter.o: .\Hardware\OLED.h
+.\objects\gradienter.o: .\Start\stm32f10x.h
+.\objects\gradienter.o: .\Start\core_cm3.h
+.\objects\gradienter.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gradienter.o: .\Start\system_stm32f10x.h
+.\objects\gradienter.o: .\Hardware\OLED_Data.h
+.\objects\gradienter.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gradienter.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\gradienter.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gradienter.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\gradienter.o: .\Hardware\key.h
+.\objects\gradienter.o: App\MPU6050.h
+.\objects\gradienter.o: .\Hardware\i2c.h
+.\objects\gradienter.o: .\system\delay.h
+.\objects\gradienter.o: App\MPU6050_Reg.h

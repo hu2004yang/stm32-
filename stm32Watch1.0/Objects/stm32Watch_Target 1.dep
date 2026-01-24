@@ -1,0 +1,252 @@
+Dependencies for Project 'stm32Watch', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060528::V5.06 update 5 (build 528)::ARMCC
+F (.\Start\core_cm3.c)(0x61605444)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (.\Start\core_cm3.h)(0x61605444)()
+F (.\Start\startup_stm32f10x_hd.s)(0x61605445)(--cpu Cortex-M3 -g --apcs=interwork -ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (.\Start\stm32f10x.h)(0x61605444)()
+F (.\Start\system_stm32f10x.c)(0x61605444)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (Start\stm32f10x.h)(0x61605444)
+I (Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (Start\system_stm32f10x.h)(0x61605444)
+F (.\Start\system_stm32f10x.h)(0x61605444)()
+F (.\User\main.c)(0x6955EF75)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\App\menu.h)(0x695B74BD)
+I (.\Hardware\key.h)(0x695344D7)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\system\Delay.h)(0x6886E7BB)
+I (.\Hardware\oled.h)(0x6953457F)
+I (.\Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (.\system\MyRTC.h)(0x695518FD)
+I (D:\keil5\ARM\ARMCC\include\time.h)(0x588B8344)
+I (.\Hardware\adc.h)(0x695B1F25)
+I (.\App\SetTime.h)(0x695514A5)
+I (.\App\StopWatch.h)(0x695869D8)
+I (.\App\MPU6050.h)(0x695B7507)
+I (.\Hardware\i2c.h)(0x66596A22)
+I (.\App\MPU6050_Reg.h)(0x6398543A)
+I (.\App\FlashLight.h)(0x6959068C)
+I (.\Hardware\LED.h)(0x6958F663)
+I (.\App\game.h)(0x6959CAC1)
+I (.\Game\Dino.h)(0x695A1024)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\App\Gradienter.h)(0x695B74BD)
+I (.\system\Timer.h)(0x69533F15)
+F (.\system\Delay.c)(0x6886E7BB)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (system\Delay.h)(0x6886E7BB)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+F (.\system\Timer.c)(0x6959CAC1)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (system\Timer.h)(0x69533F15)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\Hardware\key.h)(0x695344D7)
+I (.\App\StopWatch.h)(0x695869D8)
+I (.\Hardware\OLED.h)(0x6953457F)
+I (.\Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (.\system\Delay.h)(0x6886E7BB)
+I (.\system\MyRTC.h)(0x695518FD)
+I (D:\keil5\ARM\ARMCC\include\time.h)(0x588B8344)
+I (.\App\game.h)(0x6959CAC1)
+I (.\Game\Dino.h)(0x695A1024)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (.\system\MyRTC.c)(0x695518FD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\myrtc.o --omf_browse .\objects\myrtc.crf --depend .\objects\myrtc.d)
+I (system\MyRTC.h)(0x695518FD)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\time.h)(0x588B8344)
+F (.\Hardware\key.c)(0x695533DE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (Hardware\key.h)(0x695344D7)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+F (.\Hardware\LED.c)(0x69673B3A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (Hardware\LED.h)(0x6958F663)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+F (.\Hardware\OLED.c)(0x695C6DF1)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (Hardware\OLED.h)(0x6953457F)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (.\Hardware\OLED_Data.c)(0x695B2175)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\oled_data.o --omf_browse .\objects\oled_data.crf --depend .\objects\oled_data.d)
+I (Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+F (.\Hardware\adc.c)(0x695B2C94)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (Hardware\adc.h)(0x695B1F25)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+F (.\Hardware\i2c.c)(0x66597702)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (Hardware\i2c.h)(0x66596A22)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\system\delay.h)(0x6886E7BB)
+F (.\App\menu.c)(0x695B74BD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\menu.o --omf_browse .\objects\menu.crf --depend .\objects\menu.d)
+I (App\menu.h)(0x695B74BD)
+I (.\Hardware\key.h)(0x695344D7)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\system\Delay.h)(0x6886E7BB)
+I (.\Hardware\oled.h)(0x6953457F)
+I (.\Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (.\system\MyRTC.h)(0x695518FD)
+I (D:\keil5\ARM\ARMCC\include\time.h)(0x588B8344)
+I (.\Hardware\adc.h)(0x695B1F25)
+I (App\SetTime.h)(0x695514A5)
+I (App\StopWatch.h)(0x695869D8)
+I (App\MPU6050.h)(0x695B7507)
+I (.\Hardware\i2c.h)(0x66596A22)
+I (App\MPU6050_Reg.h)(0x6398543A)
+I (App\FlashLight.h)(0x6959068C)
+I (.\Hardware\LED.h)(0x6958F663)
+I (App\game.h)(0x6959CAC1)
+I (.\Game\Dino.h)(0x695A1024)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (App\Gradienter.h)(0x695B74BD)
+F (.\App\SetTime.c)(0x6958F225)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\settime.o --omf_browse .\objects\settime.crf --depend .\objects\settime.d)
+I (App\SetTime.h)(0x695514A5)
+I (.\Hardware\OLED.h)(0x6953457F)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (.\system\MyRTC.h)(0x695518FD)
+I (D:\keil5\ARM\ARMCC\include\time.h)(0x588B8344)
+I (.\Hardware\key.h)(0x695344D7)
+F (.\App\StopWatch.c)(0x6959C7DF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\stopwatch.o --omf_browse .\objects\stopwatch.crf --depend .\objects\stopwatch.d)
+I (App\StopWatch.h)(0x695869D8)
+I (.\Hardware\OLED.h)(0x6953457F)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (.\Hardware\key.h)(0x695344D7)
+I (.\system\Delay.h)(0x6886E7BB)
+I (.\system\MyRTC.h)(0x695518FD)
+I (D:\keil5\ARM\ARMCC\include\time.h)(0x588B8344)
+F (.\App\FlashLight.c)(0x69590B07)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\flashlight.o --omf_browse .\objects\flashlight.crf --depend .\objects\flashlight.d)
+I (App\FlashLight.h)(0x6959068C)
+I (.\Hardware\OLED.h)(0x6953457F)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (.\Hardware\key.h)(0x695344D7)
+I (.\Hardware\LED.h)(0x6958F663)
+I (.\system\Delay.h)(0x6886E7BB)
+F (.\App\game.c)(0x695A103C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\game.o --omf_browse .\objects\game.crf --depend .\objects\game.d)
+I (App\game.h)(0x6959CAC1)
+I (.\Hardware\OLED.h)(0x6953457F)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (.\Hardware\key.h)(0x695344D7)
+I (.\Game\Dino.h)(0x695A1024)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\system\Delay.h)(0x6886E7BB)
+F (.\App\MPU6050.c)(0x695B74E9)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\mpu6050.o --omf_browse .\objects\mpu6050.crf --depend .\objects\mpu6050.d)
+I (App\MPU6050.h)(0x695B7507)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\Hardware\i2c.h)(0x66596A22)
+I (.\system\delay.h)(0x6886E7BB)
+I (App\MPU6050_Reg.h)(0x6398543A)
+I (.\Hardware\OLED.h)(0x6953457F)
+I (.\Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (.\Hardware\key.h)(0x695344D7)
+F (.\App\Gradienter.c)(0x695B7465)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\gradienter.o --omf_browse .\objects\gradienter.crf --depend .\objects\gradienter.d)
+I (App\Gradienter.h)(0x695B74BD)
+I (.\Hardware\OLED.h)(0x6953457F)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (.\Hardware\key.h)(0x695344D7)
+I (App\MPU6050.h)(0x695B7507)
+I (.\Hardware\i2c.h)(0x66596A22)
+I (.\system\delay.h)(0x6886E7BB)
+I (App\MPU6050_Reg.h)(0x6398543A)
+F (.\Game\Dino.c)(0x695A1747)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Start -I .\User -I .\system -I .\Hardware -I .\App -I .\Game-ID:\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_MD-o .\objects\dino.o --omf_browse .\objects\dino.crf --depend .\objects\dino.d)
+I (Game\Dino.h)(0x695A1024)
+I (.\Hardware\OLED.h)(0x6953457F)
+I (.\Start\stm32f10x.h)(0x61605444)
+I (.\Start\core_cm3.h)(0x61605444)
+I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\Hardware\OLED_Data.h)(0x695B2175)
+I (D:\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (.\Hardware\key.h)(0x695344D7)
+I (D:\keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\system\Delay.h)(0x6886E7BB)

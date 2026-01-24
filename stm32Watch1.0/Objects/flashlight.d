@@ -1,0 +1,15 @@
+.\objects\flashlight.o: App\FlashLight.c
+.\objects\flashlight.o: App\FlashLight.h
+.\objects\flashlight.o: .\Hardware\OLED.h
+.\objects\flashlight.o: .\Start\stm32f10x.h
+.\objects\flashlight.o: .\Start\core_cm3.h
+.\objects\flashlight.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flashlight.o: .\Start\system_stm32f10x.h
+.\objects\flashlight.o: .\Hardware\OLED_Data.h
+.\objects\flashlight.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\flashlight.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\flashlight.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\flashlight.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\flashlight.o: .\Hardware\key.h
+.\objects\flashlight.o: .\Hardware\LED.h
+.\objects\flashlight.o: .\system\Delay.h

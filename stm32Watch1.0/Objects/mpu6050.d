@@ -1,0 +1,16 @@
+.\objects\mpu6050.o: App\MPU6050.c
+.\objects\mpu6050.o: App\MPU6050.h
+.\objects\mpu6050.o: .\Start\stm32f10x.h
+.\objects\mpu6050.o: .\Start\core_cm3.h
+.\objects\mpu6050.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpu6050.o: .\Start\system_stm32f10x.h
+.\objects\mpu6050.o: .\Hardware\i2c.h
+.\objects\mpu6050.o: .\system\delay.h
+.\objects\mpu6050.o: App\MPU6050_Reg.h
+.\objects\mpu6050.o: .\Hardware\OLED.h
+.\objects\mpu6050.o: .\Hardware\OLED_Data.h
+.\objects\mpu6050.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mpu6050.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\mpu6050.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mpu6050.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\mpu6050.o: .\Hardware\key.h

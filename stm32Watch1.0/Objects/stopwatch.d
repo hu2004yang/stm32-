@@ -1,0 +1,16 @@
+.\objects\stopwatch.o: App\StopWatch.c
+.\objects\stopwatch.o: App\StopWatch.h
+.\objects\stopwatch.o: .\Hardware\OLED.h
+.\objects\stopwatch.o: .\Start\stm32f10x.h
+.\objects\stopwatch.o: .\Start\core_cm3.h
+.\objects\stopwatch.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stopwatch.o: .\Start\system_stm32f10x.h
+.\objects\stopwatch.o: .\Hardware\OLED_Data.h
+.\objects\stopwatch.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\stopwatch.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\stopwatch.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\stopwatch.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\stopwatch.o: .\Hardware\key.h
+.\objects\stopwatch.o: .\system\Delay.h
+.\objects\stopwatch.o: .\system\MyRTC.h
+.\objects\stopwatch.o: D:\keil5\ARM\ARMCC\Bin\..\include\time.h

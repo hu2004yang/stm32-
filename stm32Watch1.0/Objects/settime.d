@@ -1,0 +1,15 @@
+.\objects\settime.o: App\SetTime.c
+.\objects\settime.o: App\SetTime.h
+.\objects\settime.o: .\Hardware\OLED.h
+.\objects\settime.o: .\Start\stm32f10x.h
+.\objects\settime.o: .\Start\core_cm3.h
+.\objects\settime.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\settime.o: .\Start\system_stm32f10x.h
+.\objects\settime.o: .\Hardware\OLED_Data.h
+.\objects\settime.o: D:\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\settime.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\settime.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\settime.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\settime.o: .\system\MyRTC.h
+.\objects\settime.o: D:\keil5\ARM\ARMCC\Bin\..\include\time.h
+.\objects\settime.o: .\Hardware\key.h
