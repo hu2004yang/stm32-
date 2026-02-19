@@ -1,0 +1,10 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.flashType": "UART",
+  "files.associations": {
+    "esp_spi_flash.h": "c",
+    "gpio.h": "c",
+    "cstring": "c"
+  },
+  "idf.portWin": "COM12"
+}

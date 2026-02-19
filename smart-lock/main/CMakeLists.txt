@@ -1,0 +1,21 @@
+idf_component_register(
+    SRCS 
+        "main.c"  
+        "Com/Com_Debug.c"
+        "Inf/Inf_WTN6.c"
+        "Inf/Inf_LED.c"
+        "Inf/Inf_SC128.c"
+        "App/App_IO.c"
+        "Dri/Dri_NVS.c"
+        "Inf/Inf_BDR6120.c"
+        "Inf/Inf_FPM385.c"
+        "Dri/Dri_Ble.c"
+        "App/App_Communication.c"
+        "Dri/Dri_Wifi.c"
+    INCLUDE_DIRS
+        "."
+        "Com"
+        "Inf"
+        "App"
+        "Dri"
+)
